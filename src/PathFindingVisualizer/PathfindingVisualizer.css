@@ -1,0 +1,69 @@
+
+.mainHeading{
+  font-size: 40px;
+  font-family: Garamond, serif;
+}
+.gitHub-icon {
+  position: relative;
+  width: 2.0vw;
+  height:2.0vw;
+  margin-left: 1150px;
+}
+
+.icons {
+  background-color: transparent;
+  border-radius: 0.5rem;
+  padding: 0.3vw;
+  margin: 0.2vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon {
+  border-radius: 50%;
+}
+
+.icon:hover {
+  box-shadow: 0 0.2rem 0.1rem;
+  transform: translateY(-0.1rem);
+}
+
+.icon:active {
+box-shadow: 0 0.2rem 0.1rem;
+transform: translateY(0.15rem);
+}
+
+.grid{
+  align-items: center;
+  justify-content: center;
+}
+
+.grid button{
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(252, 222, 226);
+}
+
+
+.grid button:active{
+  outline: rgb(105, 10, 114) auto 5px;
+}
+
+.grid button:disabled{
+  color: rgb(230, 148, 148);
+  outline: rgb(230, 148, 148) auto 5px;
+}
